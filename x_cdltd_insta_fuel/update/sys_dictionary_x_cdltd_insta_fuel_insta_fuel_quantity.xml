@@ -6,13 +6,13 @@
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>1</choice>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Quantity in gallon</column_label>
         <comments/>
         <create_roles/>
-        <default_value>Choice 1</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -49,14 +49,14 @@
         <sys_created_by>vy.thai</sys_created_by>
         <sys_created_on>2020-05-21 21:05:04</sys_created_on>
         <sys_id>d28bc263ed7810107f4436720f991a90</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Quantity in gallon</sys_name>
         <sys_package display_value="Insta Fuel" source="x_cdltd_insta_fuel">da934a2fed3810107f4436720f991a0a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
         <sys_update_name>sys_dictionary_x_cdltd_insta_fuel_insta_fuel_quantity</sys_update_name>
-        <sys_updated_by>vy.thai</sys_updated_by>
-        <sys_updated_on>2020-05-21 21:05:05</sys_updated_on>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 17:27:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

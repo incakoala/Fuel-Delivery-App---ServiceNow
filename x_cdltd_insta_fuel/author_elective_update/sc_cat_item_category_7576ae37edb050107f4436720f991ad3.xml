@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Insta Fuel">b976ae37edb050107f4436720f991a94</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 17:41:13</sys_created_on>
+        <sys_id>7576ae37edb050107f4436720f991ad3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Insta Fuel</sys_name>
+        <sys_package display_value="Insta Fuel" source="x_cdltd_insta_fuel">da934a2fed3810107f4436720f991a0a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_update_name>sc_cat_item_category_7576ae37edb050107f4436720f991ad3</sys_update_name>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 17:41:13</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</application>
+        <file_path/>
+        <instance_id>b20d11971b7c105088c56288bd4bcb28</instance_id>
+        <instance_name>ne-hackathon-dev-004</instance_name>
+        <name>sc_cat_item_category_7576ae37edb050107f4436720f991ad3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Insta Fuel">b976ae37edb050107f4436720f991a94</sc_cat_item><sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>yu.feng</sys_created_by><sys_created_on>2020-05-22 17:41:13</sys_created_on><sys_id>7576ae37edb050107f4436720f991ad3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Can We Help You?.Insta Fuel</sys_name><sys_package display_value="Insta Fuel" source="x_cdltd_insta_fuel">da934a2fed3810107f4436720f991a0a</sys_package><sys_policy/><sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope><sys_update_name>sc_cat_item_category_7576ae37edb050107f4436720f991ad3</sys_update_name><sys_updated_by>yu.feng</sys_updated_by><sys_updated_on>2020-05-22 17:41:13</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1288877917</payload_hash>
+        <record_name>Can We Help You?.Insta Fuel</record_name>
+        <reverted_from/>
+        <source>ec7d8c7bed7c10107f4436720f991ada</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 17:41:13</sys_created_on>
+        <sys_id>c276ae37edb050107f4436720f991ad6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1723d7985100000001</sys_recorded_at>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 17:41:13</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>0e76ae3755b0501030ff6b7eb5775fd5</update_guid>
+        <update_guid_history>0e76ae3755b0501030ff6b7eb5775fd5:1288877917</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Can We Help You?.Insta Fuel">69282eb7edb050107f4436720f991afc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 17:48:34</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>8e1e2693221749aa9a8e7796a71bc824</sys_id>
+        <sys_metadata>7576ae37edb050107f4436720f991ad3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Insta Fuel</sys_name>
+        <sys_package display_value="Insta Fuel" source="x_cdltd_insta_fuel">da934a2fed3810107f4436720f991a0a</sys_package>
+        <sys_parent display_value="">b976ae37edb050107f4436720f991a94</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_scope_delete display_value="">5724611a8c20408c875fc39443e191e1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_7576ae37edb050107f4436720f991ad3</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_7576ae37edb050107f4436720f991ad3">c276ae37edb050107f4436720f991ad6</sys_update_version>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 17:48:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

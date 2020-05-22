@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Trucks Info" max_length="40" name="x_cdltd_insta_fuel_trucks_info" type="collection">
+    <element extends="sys_import_set_row" label="Trucks Info" max_length="40" name="x_cdltd_insta_fuel_trucks_info" sizeclass="33099" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=city" label="city" max_length="40" name="u_city" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ï»¿zip" max_length="40" name="u_ï__zip" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=state_id" label="state_id" max_length="40" name="u_state_id" type="string"/>

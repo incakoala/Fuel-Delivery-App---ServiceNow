@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="quantity" label="Quantity in gallon" language="en" table="x_cdltd_insta_fuel_insta_fuel">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>quantity</element>
+            <help/>
+            <hint/>
+            <label>Quantity in gallon</label>
+            <language>en</language>
+            <name>x_cdltd_insta_fuel_insta_fuel</name>
+            <plural>Quantity in gallons</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>vy.thai</sys_created_by>
+            <sys_created_on>2020-05-21 21:05:04</sys_created_on>
+            <sys_id>5a8bc263ed7810107f4436720f991a92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Quantity in gallon</sys_name>
+            <sys_package display_value="Insta Fuel" source="x_cdltd_insta_fuel">da934a2fed3810107f4436720f991a0a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+            <sys_update_name>sys_documentation_x_cdltd_insta_fuel_insta_fuel_quantity_en</sys_update_name>
+            <sys_updated_by>vy.thai</sys_updated_by>
+            <sys_updated_on>2020-05-21 21:05:04</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

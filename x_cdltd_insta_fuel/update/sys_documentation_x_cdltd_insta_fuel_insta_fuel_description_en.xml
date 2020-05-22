@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="description" label="Provide an address and/or nearby landmarks where we can find you:" language="en" table="x_cdltd_insta_fuel_insta_fuel">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <help/>
+            <hint/>
+            <label>Provide an address and/or nearby landmarks where we can find you:</label>
+            <language>en</language>
+            <name>x_cdltd_insta_fuel_insta_fuel</name>
+            <plural>Provide an address and/or nearby landmarks where we can find you:s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>vy.thai</sys_created_by>
+            <sys_created_on>2020-05-21 21:05:05</sys_created_on>
+            <sys_id>2e8b0663ed7810107f4436720f991a4d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Provide an address and/or nearby landmarks where we can find you:</sys_name>
+            <sys_package display_value="Insta Fuel" source="x_cdltd_insta_fuel">da934a2fed3810107f4436720f991a0a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+            <sys_update_name>sys_documentation_x_cdltd_insta_fuel_insta_fuel_description_en</sys_update_name>
+            <sys_updated_by>vy.thai</sys_updated_by>
+            <sys_updated_on>2020-05-22 06:04:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_cdltd_insta_fuel_trucks</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-21 23:55:50</sys_created_on>
+        <sys_id>33927ea7edb810107f4436720f991a5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_insta_fuel_trucks</sys_name>
+        <sys_package display_value="Insta Fuel" source="x_cdltd_insta_fuel">da934a2fed3810107f4436720f991a0a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_update_name>ua_table_licensing_config_33927ea7edb810107f4436720f991a5e</sys_update_name>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-21 23:55:50</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</application>
+        <file_path/>
+        <instance_id>b20d11971b7c105088c56288bd4bcb28</instance_id>
+        <instance_name>ne-hackathon-dev-004</instance_name>
+        <name>ua_table_licensing_config_33927ea7edb810107f4436720f991a5e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_cdltd_insta_fuel_trucks</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>vy.thai</sys_created_by><sys_created_on>2020-05-21 23:55:50</sys_created_on><sys_id>33927ea7edb810107f4436720f991a5e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cdltd_insta_fuel_trucks</sys_name><sys_package display_value="Insta Fuel" source="x_cdltd_insta_fuel">da934a2fed3810107f4436720f991a0a</sys_package><sys_policy/><sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope><sys_update_name>ua_table_licensing_config_33927ea7edb810107f4436720f991a5e</sys_update_name><sys_updated_by>vy.thai</sys_updated_by><sys_updated_on>2020-05-21 23:55:50</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>-1176669011</payload_hash>
+        <record_name>x_cdltd_insta_fuel_trucks</record_name>
+        <reverted_from/>
+        <source>1a93426fed3810107f4436720f991ae4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-21 23:55:50</sys_created_on>
+        <sys_id>f7927ea7edb810107f4436720f991a5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17239aa21e20000001</sys_recorded_at>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-21 23:55:50</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>33927ea7a7b81010c2609fdc67cd5e5f</update_guid>
+        <update_guid_history>33927ea7a7b81010c2609fdc67cd5e5f:-1176669011</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 05:15:05</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>29d5da22b07c49beb34c68321885c1f9</sys_id>
+        <sys_metadata>33927ea7edb810107f4436720f991a5e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_insta_fuel_trucks</sys_name>
+        <sys_package display_value="Insta Fuel" source="x_cdltd_insta_fuel">da934a2fed3810107f4436720f991a0a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_scope_delete display_value="">5724611a8c20408c875fc39443e191e1</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_33927ea7edb810107f4436720f991a5e</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_33927ea7edb810107f4436720f991a5e">f7927ea7edb810107f4436720f991a5f</sys_update_version>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 05:15:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

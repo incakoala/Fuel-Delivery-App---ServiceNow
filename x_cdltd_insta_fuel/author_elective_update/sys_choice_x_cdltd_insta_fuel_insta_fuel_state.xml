@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_cdltd_insta_fuel_insta_fuel" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Requested</label>
+            <language>en</language>
+            <name>x_cdltd_insta_fuel_insta_fuel</name>
+            <sequence>0</sequence>
+            <sys_created_by>vy.thai</sys_created_by>
+            <sys_created_on>2020-05-21 21:10:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>52dc8e63ed7810107f4436720f991a31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>vy.thai</sys_updated_by>
+            <sys_updated_on>2020-05-21 21:10:48</sys_updated_on>
+            <value>-5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In Transit</label>
+            <language>en</language>
+            <name>x_cdltd_insta_fuel_insta_fuel</name>
+            <sequence>1</sequence>
+            <sys_created_by>vy.thai</sys_created_by>
+            <sys_created_on>2020-05-21 21:10:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dedc8e63ed7810107f4436720f991a32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>vy.thai</sys_updated_by>
+            <sys_updated_on>2020-05-21 21:10:48</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Delivered</label>
+            <language>en</language>
+            <name>x_cdltd_insta_fuel_insta_fuel</name>
+            <sequence>2</sequence>
+            <sys_created_by>vy.thai</sys_created_by>
+            <sys_created_on>2020-05-21 21:10:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9adc8e63ed7810107f4436720f991a34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>vy.thai</sys_updated_by>
+            <sys_updated_on>2020-05-21 21:10:48</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_cdltd_insta_fuel_insta_fuel</name>
+            <sequence>3</sequence>
+            <sys_created_by>vy.thai</sys_created_by>
+            <sys_created_on>2020-05-21 21:10:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56dc8e63ed7810107f4436720f991a36</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>vy.thai</sys_updated_by>
+            <sys_updated_on>2020-05-21 21:10:48</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_cdltd_insta_fuel_insta_fuel</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>vy.thai</sys_created_by>
+            <sys_created_on>2020-05-21 21:10:48</sys_created_on>
+            <sys_id>9adc8e63ed7810107f4436720f991a31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="Insta Fuel" source="x_cdltd_insta_fuel">da934a2fed3810107f4436720f991a0a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+            <sys_update_name>sys_choice_x_cdltd_insta_fuel_insta_fuel_state</sys_update_name>
+            <sys_updated_by>vy.thai</sys_updated_by>
+            <sys_updated_on>2020-05-21 21:10:48</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

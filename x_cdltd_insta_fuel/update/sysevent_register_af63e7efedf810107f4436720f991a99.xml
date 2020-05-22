@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description>Remind user fuel is in transition.</description>
+        <event_name>x_cdltd_insta_fuel.fuel.transition</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>fuel.transition</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:29:41</sys_created_on>
+        <sys_id>af63e7efedf810107f4436720f991a99</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_cdltd_insta_fuel.fuel.transition</sys_name>
+        <sys_package display_value="Insta Fuel" source="x_cdltd_insta_fuel">da934a2fed3810107f4436720f991a0a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_update_name>sysevent_register_af63e7efedf810107f4436720f991a99</sys_update_name>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:30:12</sys_updated_on>
+        <table>x_cdltd_insta_fuel_insta_fuel</table>
+    </sysevent_register>
+</record_update>

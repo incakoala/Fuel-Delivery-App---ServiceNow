@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 05:16:36</sys_created_on>
+        <sys_id>5e0c7f6fed3c10107f4436720f991acc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_insta_fuel_trucks.x_cdltd_insta_fuel.trucks_user</sys_name>
+        <sys_package display_value="Insta Fuel" source="x_cdltd_insta_fuel">da934a2fed3810107f4436720f991a0a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_security_acl display_value="x_cdltd_insta_fuel_trucks">1a0c7f6fed3c10107f4436720f991abd</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_5e0c7f6fed3c10107f4436720f991acc</sys_update_name>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 05:16:36</sys_updated_on>
+        <sys_user_role display_value="x_cdltd_insta_fuel.trucks_user" name="x_cdltd_insta_fuel.trucks_user">1a0c7f6fed3c10107f4436720f991a9b</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

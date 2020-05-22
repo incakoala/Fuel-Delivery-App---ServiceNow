@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="7a14fe2bedb810107f4436720f991a87" sys_domain="global" table="x_cdltd_insta_fuel_trucks" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>vy.thai</sys_created_by>
+            <sys_created_on>2020-05-22 00:02:20</sys_created_on>
+            <sys_id>b614326bedb810107f4436720f991a86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_insta_fuel_trucks" sys_domain="global" view="Default view">7a14fe2bedb810107f4436720f991a87</sys_ui_section>
+            <sys_updated_by>vy.thai</sys_updated_by>
+            <sys_updated_on>2020-05-22 00:02:20</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_truck_name</element>
+            <position>1</position>
+            <sys_created_by>vy.thai</sys_created_by>
+            <sys_created_on>2020-05-22 00:02:20</sys_created_on>
+            <sys_id>3e14326bedb810107f4436720f991a86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_insta_fuel_trucks" sys_domain="global" view="Default view">7a14fe2bedb810107f4436720f991a87</sys_ui_section>
+            <sys_updated_by>vy.thai</sys_updated_by>
+            <sys_updated_on>2020-05-22 00:02:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_state_id</element>
+            <position>2</position>
+            <sys_created_by>vy.thai</sys_created_by>
+            <sys_created_on>2020-05-22 00:02:20</sys_created_on>
+            <sys_id>be14326bedb810107f4436720f991a86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_insta_fuel_trucks" sys_domain="global" view="Default view">7a14fe2bedb810107f4436720f991a87</sys_ui_section>
+            <sys_updated_by>vy.thai</sys_updated_by>
+            <sys_updated_on>2020-05-22 00:02:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_city</element>
+            <position>3</position>
+            <sys_created_by>vy.thai</sys_created_by>
+            <sys_created_on>2020-05-22 00:02:20</sys_created_on>
+            <sys_id>3214326bedb810107f4436720f991a87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_insta_fuel_trucks" sys_domain="global" view="Default view">7a14fe2bedb810107f4436720f991a87</sys_ui_section>
+            <sys_updated_by>vy.thai</sys_updated_by>
+            <sys_updated_on>2020-05-22 00:02:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>vy.thai</sys_created_by>
+            <sys_created_on>2020-05-22 00:02:20</sys_created_on>
+            <sys_id>b214326bedb810107f4436720f991a87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_insta_fuel_trucks" sys_domain="global" view="Default view">7a14fe2bedb810107f4436720f991a87</sys_ui_section>
+            <sys_updated_by>vy.thai</sys_updated_by>
+            <sys_updated_on>2020-05-22 00:02:20</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_truck_availability</element>
+            <position>5</position>
+            <sys_created_by>vy.thai</sys_created_by>
+            <sys_created_on>2020-05-22 00:02:20</sys_created_on>
+            <sys_id>3614326bedb810107f4436720f991a87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_insta_fuel_trucks" sys_domain="global" view="Default view">7a14fe2bedb810107f4436720f991a87</sys_ui_section>
+            <sys_updated_by>vy.thai</sys_updated_by>
+            <sys_updated_on>2020-05-22 00:02:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ï__zip</element>
+            <position>6</position>
+            <sys_created_by>vy.thai</sys_created_by>
+            <sys_created_on>2020-05-22 00:02:20</sys_created_on>
+            <sys_id>b614326bedb810107f4436720f991a87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_insta_fuel_trucks" sys_domain="global" view="Default view">7a14fe2bedb810107f4436720f991a87</sys_ui_section>
+            <sys_updated_by>vy.thai</sys_updated_by>
+            <sys_updated_on>2020-05-22 00:02:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>vy.thai</sys_created_by>
+            <sys_created_on>2020-05-22 00:02:20</sys_created_on>
+            <sys_id>3a14326bedb810107f4436720f991a87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_insta_fuel_trucks" sys_domain="global" view="Default view">7a14fe2bedb810107f4436720f991a87</sys_ui_section>
+            <sys_updated_by>vy.thai</sys_updated_by>
+            <sys_updated_on>2020-05-22 00:02:20</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_cdltd_insta_fuel_trucks</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>vy.thai</sys_created_by>
+            <sys_created_on>2020-05-22 00:02:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a14fe2bedb810107f4436720f991a87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cdltd_insta_fuel_trucks</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Insta Fuel" source="x_cdltd_insta_fuel">da934a2fed3810107f4436720f991a0a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+            <sys_update_name>sys_ui_section_7a14fe2bedb810107f4436720f991a87</sys_update_name>
+            <sys_updated_by>vy.thai</sys_updated_by>
+            <sys_updated_on>2020-05-22 00:02:20</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</application>
+        <file_path/>
+        <instance_id>b20d11971b7c105088c56288bd4bcb28</instance_id>
+        <instance_name>ne-hackathon-dev-004</instance_name>
+        <name>sys_ui_section_7a14fe2bedb810107f4436720f991a87</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="7a14fe2bedb810107f4436720f991a87" sys_domain="global" table="x_cdltd_insta_fuel_trucks" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>vy.thai</sys_created_by><sys_created_on>2020-05-22 00:02:20</sys_created_on><sys_id>b614326bedb810107f4436720f991a86</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cdltd_insta_fuel_trucks" sys_domain="global" view="Default view">7a14fe2bedb810107f4436720f991a87</sys_ui_section><sys_updated_by>vy.thai</sys_updated_by><sys_updated_on>2020-05-22 00:02:20</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_truck_name</element><position>1</position><sys_created_by>vy.thai</sys_created_by><sys_created_on>2020-05-22 00:02:20</sys_created_on><sys_id>3e14326bedb810107f4436720f991a86</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cdltd_insta_fuel_trucks" sys_domain="global" view="Default view">7a14fe2bedb810107f4436720f991a87</sys_ui_section><sys_updated_by>vy.thai</sys_updated_by><sys_updated_on>2020-05-22 00:02:20</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_state_id</element><position>2</position><sys_created_by>vy.thai</sys_created_by><sys_created_on>2020-05-22 00:02:20</sys_created_on><sys_id>be14326bedb810107f4436720f991a86</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cdltd_insta_fuel_trucks" sys_domain="global" view="Default view">7a14fe2bedb810107f4436720f991a87</sys_ui_section><sys_updated_by>vy.thai</sys_updated_by><sys_updated_on>2020-05-22 00:02:20</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_city</element><position>3</position><sys_created_by>vy.thai</sys_created_by><sys_created_on>2020-05-22 00:02:20</sys_created_on><sys_id>3214326bedb810107f4436720f991a87</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cdltd_insta_fuel_trucks" sys_domain="global" view="Default view">7a14fe2bedb810107f4436720f991a87</sys_ui_section><sys_updated_by>vy.thai</sys_updated_by><sys_updated_on>2020-05-22 00:02:20</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>vy.thai</sys_created_by><sys_created_on>2020-05-22 00:02:20</sys_created_on><sys_id>b214326bedb810107f4436720f991a87</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cdltd_insta_fuel_trucks" sys_domain="global" view="Default view">7a14fe2bedb810107f4436720f991a87</sys_ui_section><sys_updated_by>vy.thai</sys_updated_by><sys_updated_on>2020-05-22 00:02:20</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_truck_availability</element><position>5</position><sys_created_by>vy.thai</sys_created_by><sys_created_on>2020-05-22 00:02:20</sys_created_on><sys_id>3614326bedb810107f4436720f991a87</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cdltd_insta_fuel_trucks" sys_domain="global" view="Default view">7a14fe2bedb810107f4436720f991a87</sys_ui_section><sys_updated_by>vy.thai</sys_updated_by><sys_updated_on>2020-05-22 00:02:20</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_ï__zip</element><position>6</position><sys_created_by>vy.thai</sys_created_by><sys_created_on>2020-05-22 00:02:20</sys_created_on><sys_id>b614326bedb810107f4436720f991a87</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cdltd_insta_fuel_trucks" sys_domain="global" view="Default view">7a14fe2bedb810107f4436720f991a87</sys_ui_section><sys_updated_by>vy.thai</sys_updated_by><sys_updated_on>2020-05-22 00:02:20</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>7</position><sys_created_by>vy.thai</sys_created_by><sys_created_on>2020-05-22 00:02:20</sys_created_on><sys_id>3a14326bedb810107f4436720f991a87</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cdltd_insta_fuel_trucks" sys_domain="global" view="Default view">7a14fe2bedb810107f4436720f991a87</sys_ui_section><sys_updated_by>vy.thai</sys_updated_by><sys_updated_on>2020-05-22 00:02:20</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_cdltd_insta_fuel_trucks</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>vy.thai</sys_created_by><sys_created_on>2020-05-22 00:02:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7a14fe2bedb810107f4436720f991a87</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cdltd_insta_fuel_trucks</sys_name><sys_overrides/><sys_package display_value="Insta Fuel" source="x_cdltd_insta_fuel">da934a2fed3810107f4436720f991a0a</sys_package><sys_policy/><sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope><sys_update_name>sys_ui_section_7a14fe2bedb810107f4436720f991a87</sys_update_name><sys_updated_by>vy.thai</sys_updated_by><sys_updated_on>2020-05-22 00:02:20</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-338275805</payload_hash>
+        <record_name>Trucks</record_name>
+        <reverted_from/>
+        <source>1a93426fed3810107f4436720f991ae4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 00:02:20</sys_created_on>
+        <sys_id>f214326bedb810107f4436720f991a89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17239b014390000001</sys_recorded_at>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 00:02:20</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>7e14326b8ab810104ce555202450f888</update_guid>
+        <update_guid_history>7e14326b8ab810104ce555202450f888:-338275805,3214fe2b79b81010dd25c6a65bbf7d8a:-1486517137</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 05:15:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>09640049e2b0478896518a2743fc8840</sys_id>
+        <sys_metadata>7a14fe2bedb810107f4436720f991a87</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_insta_fuel_trucks</sys_name>
+        <sys_package display_value="Insta Fuel" source="x_cdltd_insta_fuel">da934a2fed3810107f4436720f991a0a</sys_package>
+        <sys_parent display_value="">ef927ea7edb810107f4436720f991a31</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_scope_delete display_value="">5724611a8c20408c875fc39443e191e1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_7a14fe2bedb810107f4436720f991a87</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_7a14fe2bedb810107f4436720f991a87">f214326bedb810107f4436720f991a89</sys_update_version>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 05:15:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

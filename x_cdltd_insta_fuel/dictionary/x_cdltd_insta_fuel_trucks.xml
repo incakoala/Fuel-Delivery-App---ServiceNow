@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Trucks" max_length="40" name="x_cdltd_insta_fuel_trucks" type="collection">
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element label="Truck Availability" max_length="40" name="truck_availability" type="string"/>
+        <element label="Truck Name" max_length="40" name="truck_name" type="string"/>
+        <element label="Zip" max_length="40" name="zip" type="string"/>
+    </element>
+</database>

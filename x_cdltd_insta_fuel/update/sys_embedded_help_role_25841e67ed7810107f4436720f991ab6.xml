@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_cdltd_insta_fuel.fuel_task_user" name="x_cdltd_insta_fuel.fuel_task_user">a9841e67ed7810107f4436720f991ab3</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-21 21:44:20</sys_created_on>
+        <sys_id>25841e67ed7810107f4436720f991ab6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a9841e67ed7810107f4436720f991ab3</sys_name>
+        <sys_package display_value="Insta Fuel" source="x_cdltd_insta_fuel">da934a2fed3810107f4436720f991a0a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_update_name>sys_embedded_help_role_25841e67ed7810107f4436720f991ab6</sys_update_name>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-21 21:44:20</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

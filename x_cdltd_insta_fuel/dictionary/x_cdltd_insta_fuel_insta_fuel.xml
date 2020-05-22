@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Insta Fuel" max_length="40" name="x_cdltd_insta_fuel_insta_fuel" type="collection">
+        <element label="Contact Number" max_length="40" name="contact_number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" mandatory="true" max_length="40" name="first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="unleaded regular (87-octane)" label="Gas Type" mandatory="true" max_length="40" name="gas_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Unleaded regular (87-octane)" sequence="0" value="unleaded regular (87-octane)"/>
+                <element inactive_on_update="false" label="Diesel" sequence="1" value="diesel"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" mandatory="true" max_length="40" name="last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone" max_length="40" name="phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Choice 1" label="Quantity in gallon" max_length="40" name="quantity" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Requested Date &amp; Time" max_length="40" name="requested_date_time" type="glide_date_time"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element label="Zip Code" max_length="5" name="zip_string" type="string"/>
+    </element>
+</database>

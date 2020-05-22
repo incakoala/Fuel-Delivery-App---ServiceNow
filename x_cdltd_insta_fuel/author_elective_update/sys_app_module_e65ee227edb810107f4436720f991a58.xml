@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Trucks</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_cdltd_insta_fuel_trucks</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-21 23:37:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e65ee227edb810107f4436720f991a58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Trucks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Insta Fuel" source="x_cdltd_insta_fuel">da934a2fed3810107f4436720f991a0a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_update_name>sys_app_module_e65ee227edb810107f4436720f991a58</sys_update_name>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-21 23:37:11</sys_updated_on>
+        <timeline_page/>
+        <title>Trucks</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</application>
+        <file_path/>
+        <instance_id>b20d11971b7c105088c56288bd4bcb28</instance_id>
+        <instance_name>ne-hackathon-dev-004</instance_name>
+        <name>sys_app_module_e65ee227edb810107f4436720f991a58</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Trucks</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_cdltd_insta_fuel_trucks</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>vy.thai</sys_created_by><sys_created_on>2020-05-21 23:37:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e65ee227edb810107f4436720f991a58</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Trucks</sys_name><sys_overrides/><sys_package display_value="Insta Fuel" source="x_cdltd_insta_fuel">da934a2fed3810107f4436720f991a0a</sys_package><sys_policy/><sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope><sys_update_name>sys_app_module_e65ee227edb810107f4436720f991a58</sys_update_name><sys_updated_by>vy.thai</sys_updated_by><sys_updated_on>2020-05-21 23:37:11</sys_updated_on><timeline_page/><title>Trucks</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1947965090</payload_hash>
+        <record_name>Trucks</record_name>
+        <reverted_from/>
+        <source>1a93426fed3810107f4436720f991ae4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-21 23:37:11</sys_created_on>
+        <sys_id>a65ee227edb810107f4436720f991a5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17239990d0e0000001</sys_recorded_at>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-21 23:37:11</sys_updated_on>
+        <type>Module</type>
+        <update_guid>ee5ee2271eb81010e0244ebf5565e359</update_guid>
+        <update_guid_history>ee5ee2271eb81010e0244ebf5565e359:1947965090</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Trucks">f5423aa7edb810107f4436720f991aef</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-21 23:54:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>1f1ff92a64404a44a5f0b17515a3f290</sys_id>
+        <sys_metadata>e65ee227edb810107f4436720f991a58</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Trucks</sys_name>
+        <sys_package display_value="Insta Fuel" source="x_cdltd_insta_fuel">da934a2fed3810107f4436720f991a0a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_scope_delete display_value="">5724611a8c20408c875fc39443e191e1</sys_scope_delete>
+        <sys_update_name>sys_app_module_e65ee227edb810107f4436720f991a58</sys_update_name>
+        <sys_update_version display_value="sys_app_module_e65ee227edb810107f4436720f991a58">a65ee227edb810107f4436720f991a5a</sys_update_version>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-21 23:54:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Fuel Task</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Fuel Task</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">99fab885082300107f447452aafab96b</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-21 21:44:21</sys_created_on>
+        <sys_id>3d841e67ed7810107f4436720f991af7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fuel Task</sys_name>
+        <sys_package display_value="Insta Fuel" source="x_cdltd_insta_fuel">da934a2fed3810107f4436720f991a0a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_update_name>sys_wizard_answer_3d841e67ed7810107f4436720f991af7</sys_update_name>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-21 21:44:21</sys_updated_on>
+        <table/>
+        <target_url>x_cdltd_insta_fuel_fuel_task.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

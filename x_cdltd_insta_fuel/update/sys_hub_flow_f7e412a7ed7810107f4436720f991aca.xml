@@ -1,0 +1,1540 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Assign fuel truck for user.</description>
+        <internal_name>fuel_flow</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.table_name","label":"Trigger➛Insta Fuel Table","reference":"x_cdltd_insta_fuel_insta_fuel","reference_display":"Insta Fuel","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"b329f5ca-4031-4e4f-850d-2e62bde5614e.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b329f5ca-4031-4e4f-850d-2e62bde5614e.Table","label":"1➛Trucks Table","reference":"x_cdltd_insta_fuel_trucks","reference_display":"Trucks Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b329f5ca-4031-4e4f-850d-2e62bde5614e.Records","label":"1➛Trucks Records","reference":"x_cdltd_insta_fuel_trucks","reference_display":"Trucks Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"51fea871-eb1b-4fd7-adf1-ef81d306122b.Table","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"51fea871-eb1b-4fd7-adf1-ef81d306122b.Record","label":"4➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"83ec66cf-8a55-4504-b564-64fce7885f60.Table","label":"4➛Fuel Task Table","reference":"x_cdltd_insta_fuel_fuel_task","reference_display":"Fuel Task Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"83ec66cf-8a55-4504-b564-64fce7885f60.Record","label":"4➛Fuel Task Record","reference":"x_cdltd_insta_fuel_fuel_task","reference_display":"Fuel Task Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger➛Insta Fuel Record","reference":"x_cdltd_insta_fuel_insta_fuel","reference_display":"Insta Fuel","type":"reference","base_type":"reference","attributes":{}},{"name":"8e28e6fd-ae70-4c95-9a16-ac364feed6f8.Records","label":"1➛Trucks Information Records","reference":"x_cdltd_insta_fuel_trucks_information","reference_display":"label","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e28e6fd-ae70-4c95-9a16-ac364feed6f8.Table","label":"1➛Trucks Information Table","reference":"x_cdltd_insta_fuel_trucks_information","reference_display":"label","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e28e6fd-ae70-4c95-9a16-ac364feed6f8.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6e1afc39-a151-412d-a39d-668e23bbdd43.Records","label":"2➛Records","reference_display":"Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6e1afc39-a151-412d-a39d-668e23bbdd43.Table","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6e1afc39-a151-412d-a39d-668e23bbdd43.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.zip_code","label":"Trigger➛Insta Fuel Record➛Zip Code","reference":"","reference_display":"Zip Code","type":"integer","base_type":"integer","parent_table_name":"x_cdltd_insta_fuel_insta_fuel","column_name":"zip_code"},{"name":"Created or Updated_1.current.zip_string","label":"Trigger➛Insta Fuel Record➛Zip Code","reference":"","reference_display":"Zip Code","type":"string","base_type":"string","parent_table_name":"x_cdltd_insta_fuel_insta_fuel","column_name":"zip_string"},{"name":"79cb99b8-b1e3-4761-ae1b-5250fc1687da.record","label":"2.1➛Insta Fuel Record","reference":"x_cdltd_insta_fuel_insta_fuel","reference_display":"Insta Fuel Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"79cb99b8-b1e3-4761-ae1b-5250fc1687da.table_name","label":"2.1➛Insta Fuel Table","reference":"x_cdltd_insta_fuel_insta_fuel","reference_display":"Insta Fuel Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"507d5f12-8822-41eb-9b36-0fa168ae9a2b.record","label":"3.1➛Insta Fuel Record","reference":"x_cdltd_insta_fuel_insta_fuel","reference_display":"Insta Fuel Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"507d5f12-8822-41eb-9b36-0fa168ae9a2b.table_name","label":"3.1➛Insta Fuel Table","reference":"x_cdltd_insta_fuel_insta_fuel","reference_display":"Insta Fuel Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Fuel Flow</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-21 21:46:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f7e412a7ed7810107f4436720f991aca</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Fuel Flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Insta Fuel" source="x_cdltd_insta_fuel">da934a2fed3810107f4436720f991a0a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_update_name>sys_hub_flow_f7e412a7ed7810107f4436720f991aca</sys_update_name>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:18</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=f7e412a7ed7810107f4436720f991aca"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f7e412a7ed7810107f4436720f991aca"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=f7e412a7ed7810107f4436720f991aca^sys_idNOT IN17aed36fedf810107f4436720f991a48,463c447bed7c10107f4436720f991a7d,537e7363ed7c10107f4436720f991a0f,57aed36fedf810107f4436720f991a2a,789988f7ed7c10107f4436720f991a63,8e3c447bed7c10107f4436720f991a7a,b09988f7ed7c10107f4436720f991a61"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">d3f92c160b10030085c083eb37673a7f</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Fuel Flow">f7e412a7ed7810107f4436720f991aca</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>17aed36fedf810107f4436720f991a48</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:18</sys_updated_on>
+        <ui_id>0d8e89ff-175f-4d5c-ac06-24e4bce8667e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=17aed36fedf810107f4436720f991a48"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>17aed36fedf810107f4436720f991a48</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>13aed36fedf810107f4436720f991a4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:08:19</sys_updated_on>
+        <value>x_cdltd_insta_fuel_insta_fuel</value>
+        <variable display_value="">1ff92c160b10030085c083eb37673a81</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>17aed36fedf810107f4436720f991a48</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>5faed36fedf810107f4436720f991a49</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:23:28</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="">5ff92c160b10030085c083eb37673ac1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=17aed36fedf810107f4436720f991a48"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>17aed36fedf810107f4436720f991a48</id>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>57aed36fedf810107f4436720f991a49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:08:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3f92c160b10030085c083eb37673a7f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>17aed36fedf810107f4436720f991a48</id>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>dbaed36fedf810107f4436720f991a49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:08:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3f92c160b10030085c083eb37673a7f</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>17aed36fedf810107f4436720f991a48</id>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>1baed36fedf810107f4436720f991a49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:08:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3f92c160b10030085c083eb37673a7f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">8e3c447bed7c10107f4436720f991a7c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Fuel Flow">f7e412a7ed7810107f4436720f991aca</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:27:17</sys_created_on>
+        <sys_id>463c447bed7c10107f4436720f991a7d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <ui_id>c878f348-eb07-4198-bda4-f8efcb51021f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=463c447bed7c10107f4436720f991a7d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>463c447bed7c10107f4436720f991a7d</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:27:17</sys_created_on>
+        <sys_id>ce3c447bed7c10107f4436720f991a7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <value>NO Trucks Found</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=463c447bed7c10107f4436720f991a7d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>463c447bed7c10107f4436720f991a7d</id>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:27:17</sys_created_on>
+        <sys_id>4e3c447bed7c10107f4436720f991a7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{b329f5ca-4031-4e4f-850d-2e62bde5614e.Count}}=0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>463c447bed7c10107f4436720f991a7d</id>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:27:17</sys_created_on>
+        <sys_id>8a3c447bed7c10107f4436720f991a7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Fuel Flow">f7e412a7ed7810107f4436720f991aca</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 05:27:19</sys_created_on>
+        <sys_id>537e7363ed7c10107f4436720f991a0f</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <ui_id>b329f5ca-4031-4e4f-850d-2e62bde5614e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=537e7363ed7c10107f4436720f991a0f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>537e7363ed7c10107f4436720f991a0f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 05:35:56</sys_created_on>
+        <sys_id>ad7048b3ed7c10107f4436720f991afa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:15:45</sys_updated_on>
+        <value/>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>537e7363ed7c10107f4436720f991a0f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 05:27:19</sys_created_on>
+        <sys_id>db7e7363ed7c10107f4436720f991a10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 05:27:19</sys_updated_on>
+        <value>x_cdltd_insta_fuel_trucks</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=537e7363ed7c10107f4436720f991a0f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>537e7363ed7c10107f4436720f991a0f</id>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 05:27:19</sys_created_on>
+        <sys_id>977e7363ed7c10107f4436720f991a10</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:18:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>zip={{Created or Updated_1.current.zip_string}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>537e7363ed7c10107f4436720f991a0f</id>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 05:27:19</sys_created_on>
+        <sys_id>5b7e7363ed7c10107f4436720f991a10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 05:27:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">d3f92c160b10030085c083eb37673a7f</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Fuel Flow">f7e412a7ed7810107f4436720f991aca</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>57aed36fedf810107f4436720f991a2a</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:18</sys_updated_on>
+        <ui_id>bbee12d5-ba01-434d-9518-fa95854bd755</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=57aed36fedf810107f4436720f991a2a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>57aed36fedf810107f4436720f991a2a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>1baed36fedf810107f4436720f991a46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:08:19</sys_updated_on>
+        <value>x_cdltd_insta_fuel_insta_fuel</value>
+        <variable display_value="">1ff92c160b10030085c083eb37673a81</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>57aed36fedf810107f4436720f991a2a</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>57aed36fedf810107f4436720f991a46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:08:19</sys_updated_on>
+        <value>state=2</value>
+        <variable display_value="">5ff92c160b10030085c083eb37673ac1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=57aed36fedf810107f4436720f991a2a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>57aed36fedf810107f4436720f991a2a</id>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>d7aed36fedf810107f4436720f991a45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:08:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3f92c160b10030085c083eb37673a7f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>57aed36fedf810107f4436720f991a2a</id>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>d3aed36fedf810107f4436720f991a46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:08:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3f92c160b10030085c083eb37673a7f</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>57aed36fedf810107f4436720f991a2a</id>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>13aed36fedf810107f4436720f991a46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:08:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3f92c160b10030085c083eb37673a7f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b09988f7ed7c10107f4436720f991a63</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Fuel Flow">f7e412a7ed7810107f4436720f991aca</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:15:45</sys_created_on>
+        <sys_id>789988f7ed7c10107f4436720f991a63</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <ui_id>02a4ce3a-721f-4942-9e70-69407c30b0dc</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=789988f7ed7c10107f4436720f991a63"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>789988f7ed7c10107f4436720f991a63</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:27:17</sys_created_on>
+        <sys_id>ca3c447bed7c10107f4436720f991a78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <value>If Trucks Found</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=789988f7ed7c10107f4436720f991a63"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>789988f7ed7c10107f4436720f991a63</id>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:15:45</sys_created_on>
+        <sys_id>709988f7ed7c10107f4436720f991a66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:15:45</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{b329f5ca-4031-4e4f-850d-2e62bde5614e.Count}}!=0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>789988f7ed7c10107f4436720f991a63</id>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:27:17</sys_created_on>
+        <sys_id>4a3c447bed7c10107f4436720f991a78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Change State to Cancelled</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Fuel Flow">f7e412a7ed7810107f4436720f991aca</flow>
+        <order>3.1</order>
+        <parent_ui_id>c878f348-eb07-4198-bda4-f8efcb51021f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:27:17</sys_created_on>
+        <sys_id>8e3c447bed7c10107f4436720f991a7a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <ui_id>507d5f12-8822-41eb-9b36-0fa168ae9a2b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8e3c447bed7c10107f4436720f991a7a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8e3c447bed7c10107f4436720f991a7a</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:27:17</sys_created_on>
+        <sys_id>8a3c447bed7c10107f4436720f991a7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <value>x_cdltd_insta_fuel_insta_fuel</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8e3c447bed7c10107f4436720f991a7a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:27:17</sys_created_on>
+        <sys_id>c63c447bed7c10107f4436720f991a7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <value>state=4</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8e3c447bed7c10107f4436720f991a7a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>8e3c447bed7c10107f4436720f991a7a</id>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:27:17</sys_created_on>
+        <sys_id>823c447bed7c10107f4436720f991a7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>8e3c447bed7c10107f4436720f991a7a</id>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:27:17</sys_created_on>
+        <sys_id>ce3c447bed7c10107f4436720f991a7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>8e3c447bed7c10107f4436720f991a7a</id>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:27:17</sys_created_on>
+        <sys_id>463c447bed7c10107f4436720f991a7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Change State to In Transit</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Fuel Flow">f7e412a7ed7810107f4436720f991aca</flow>
+        <order>2.1</order>
+        <parent_ui_id>02a4ce3a-721f-4942-9e70-69407c30b0dc</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:15:45</sys_created_on>
+        <sys_id>b09988f7ed7c10107f4436720f991a61</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <ui_id>79cb99b8-b1e3-4761-ae1b-5250fc1687da</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b09988f7ed7c10107f4436720f991a61"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b09988f7ed7c10107f4436720f991a61</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:15:45</sys_created_on>
+        <sys_id>bc9988f7ed7c10107f4436720f991a62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:15:45</sys_updated_on>
+        <value>x_cdltd_insta_fuel_insta_fuel</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b09988f7ed7c10107f4436720f991a61</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:15:45</sys_created_on>
+        <sys_id>f89988f7ed7c10107f4436720f991a62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:15:45</sys_updated_on>
+        <value>state=2</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b09988f7ed7c10107f4436720f991a61"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b09988f7ed7c10107f4436720f991a61</id>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:15:45</sys_created_on>
+        <sys_id>b49988f7ed7c10107f4436720f991a62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:15:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>b09988f7ed7c10107f4436720f991a61</id>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:15:45</sys_created_on>
+        <sys_id>f09988f7ed7c10107f4436720f991a62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:15:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>b09988f7ed7c10107f4436720f991a61</id>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:15:45</sys_created_on>
+        <sys_id>789988f7ed7c10107f4436720f991a62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:15:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=f7e412a7ed7810107f4436720f991aca^sys_idNOT IN53aed36fedf810107f4436720f991a26"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Fuel Flow">f7e412a7ed7810107f4436720f991aca</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>53aed36fedf810107f4436720f991a26</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=53aed36fedf810107f4436720f991a26"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>53aed36fedf810107f4436720f991a26</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>17aed36fedf810107f4436720f991a27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:08:19</sys_updated_on>
+        <value>state=-5</value>
+        <variable display_value="">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>53aed36fedf810107f4436720f991a26</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>9faed36fedf810107f4436720f991a27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:08:19</sys_updated_on>
+        <value>x_cdltd_insta_fuel_insta_fuel</value>
+        <variable display_value="">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=f7e412a7ed7810107f4436720f991aca^sys_idNOT INbbe412a7ed7810107f4436720f991acc"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>f7e412a7ed7810107f4436720f991aca</id>
+        <name>Fuel Flow</name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-21 21:46:08</sys_created_on>
+        <sys_id>bbe412a7ed7810107f4436720f991acc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-21 21:46:08</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=f7e412a7ed7810107f4436720f991aca^sys_idNOT IN57aed36fedf810107f4436720f991a19,9fae536fedf810107f4436720f991a37,dfaed36fedf810107f4436720f991a1e"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD393c447b997c10104ae840689f20cc21,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Fuel Flow">f7e412a7ed7810107f4436720f991aca</model>
+        <model_id>f7e412a7ed7810107f4436720f991aca</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f7e412a7ed7810107f4436720f991aca</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>57aed36fedf810107f4436720f991a19</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Fuel Flow">f7e412a7ed7810107f4436720f991aca</model>
+        <model_id>f7e412a7ed7810107f4436720f991aca</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f7e412a7ed7810107f4436720f991aca</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>9fae536fedf810107f4436720f991a37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:08:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Fuel Flow">f7e412a7ed7810107f4436720f991aca</model>
+        <model_id>f7e412a7ed7810107f4436720f991aca</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f7e412a7ed7810107f4436720f991aca</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>dfaed36fedf810107f4436720f991a1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:08:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=f7e412a7ed7810107f4436720f991aca^sys_idNOT IN17aed36fedf810107f4436720f991a48,537e7363ed7c10107f4436720f991a0f,57aed36fedf810107f4436720f991a2a,8e3c447bed7c10107f4436720f991a7a,b09988f7ed7c10107f4436720f991a61"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">d3f92c160b10030085c083eb37673a7f</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Fuel Flow">f7e412a7ed7810107f4436720f991aca</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>17aed36fedf810107f4436720f991a48</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:18</sys_updated_on>
+        <ui_id>0d8e89ff-175f-4d5c-ac06-24e4bce8667e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=17aed36fedf810107f4436720f991a48"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>17aed36fedf810107f4436720f991a48</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>13aed36fedf810107f4436720f991a4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:08:19</sys_updated_on>
+        <value>x_cdltd_insta_fuel_insta_fuel</value>
+        <variable display_value="">1ff92c160b10030085c083eb37673a81</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>17aed36fedf810107f4436720f991a48</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>5faed36fedf810107f4436720f991a49</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:23:28</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="">5ff92c160b10030085c083eb37673ac1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=17aed36fedf810107f4436720f991a48"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>17aed36fedf810107f4436720f991a48</id>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>57aed36fedf810107f4436720f991a49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:08:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3f92c160b10030085c083eb37673a7f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>17aed36fedf810107f4436720f991a48</id>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>dbaed36fedf810107f4436720f991a49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:08:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3f92c160b10030085c083eb37673a7f</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>17aed36fedf810107f4436720f991a48</id>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>1baed36fedf810107f4436720f991a49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:08:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3f92c160b10030085c083eb37673a7f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Fuel Flow">f7e412a7ed7810107f4436720f991aca</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 05:27:19</sys_created_on>
+        <sys_id>537e7363ed7c10107f4436720f991a0f</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <ui_id>b329f5ca-4031-4e4f-850d-2e62bde5614e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=537e7363ed7c10107f4436720f991a0f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>537e7363ed7c10107f4436720f991a0f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 05:35:56</sys_created_on>
+        <sys_id>ad7048b3ed7c10107f4436720f991afa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:15:45</sys_updated_on>
+        <value/>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>537e7363ed7c10107f4436720f991a0f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 05:27:19</sys_created_on>
+        <sys_id>db7e7363ed7c10107f4436720f991a10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 05:27:19</sys_updated_on>
+        <value>x_cdltd_insta_fuel_trucks</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=537e7363ed7c10107f4436720f991a0f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>537e7363ed7c10107f4436720f991a0f</id>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 05:27:19</sys_created_on>
+        <sys_id>977e7363ed7c10107f4436720f991a10</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:18:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>zip={{Created or Updated_1.current.zip_string}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>537e7363ed7c10107f4436720f991a0f</id>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 05:27:19</sys_created_on>
+        <sys_id>5b7e7363ed7c10107f4436720f991a10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 05:27:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">d3f92c160b10030085c083eb37673a7f</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Fuel Flow">f7e412a7ed7810107f4436720f991aca</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>57aed36fedf810107f4436720f991a2a</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:18</sys_updated_on>
+        <ui_id>bbee12d5-ba01-434d-9518-fa95854bd755</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=57aed36fedf810107f4436720f991a2a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>57aed36fedf810107f4436720f991a2a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>1baed36fedf810107f4436720f991a46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:08:19</sys_updated_on>
+        <value>x_cdltd_insta_fuel_insta_fuel</value>
+        <variable display_value="">1ff92c160b10030085c083eb37673a81</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>57aed36fedf810107f4436720f991a2a</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>57aed36fedf810107f4436720f991a46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:08:19</sys_updated_on>
+        <value>state=2</value>
+        <variable display_value="">5ff92c160b10030085c083eb37673ac1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=57aed36fedf810107f4436720f991a2a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>57aed36fedf810107f4436720f991a2a</id>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>d7aed36fedf810107f4436720f991a45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:08:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3f92c160b10030085c083eb37673a7f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>57aed36fedf810107f4436720f991a2a</id>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>d3aed36fedf810107f4436720f991a46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:08:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3f92c160b10030085c083eb37673a7f</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>57aed36fedf810107f4436720f991a2a</id>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>13aed36fedf810107f4436720f991a46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:08:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3f92c160b10030085c083eb37673a7f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Change State to Cancelled</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Fuel Flow">f7e412a7ed7810107f4436720f991aca</flow>
+        <order>3.1</order>
+        <parent_ui_id>c878f348-eb07-4198-bda4-f8efcb51021f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:27:17</sys_created_on>
+        <sys_id>8e3c447bed7c10107f4436720f991a7a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <ui_id>507d5f12-8822-41eb-9b36-0fa168ae9a2b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8e3c447bed7c10107f4436720f991a7a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8e3c447bed7c10107f4436720f991a7a</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:27:17</sys_created_on>
+        <sys_id>8a3c447bed7c10107f4436720f991a7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <value>x_cdltd_insta_fuel_insta_fuel</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8e3c447bed7c10107f4436720f991a7a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:27:17</sys_created_on>
+        <sys_id>c63c447bed7c10107f4436720f991a7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <value>state=4</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8e3c447bed7c10107f4436720f991a7a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>8e3c447bed7c10107f4436720f991a7a</id>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:27:17</sys_created_on>
+        <sys_id>823c447bed7c10107f4436720f991a7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>8e3c447bed7c10107f4436720f991a7a</id>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:27:17</sys_created_on>
+        <sys_id>ce3c447bed7c10107f4436720f991a7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>8e3c447bed7c10107f4436720f991a7a</id>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:27:17</sys_created_on>
+        <sys_id>463c447bed7c10107f4436720f991a7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Change State to In Transit</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Fuel Flow">f7e412a7ed7810107f4436720f991aca</flow>
+        <order>2.1</order>
+        <parent_ui_id>02a4ce3a-721f-4942-9e70-69407c30b0dc</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:15:45</sys_created_on>
+        <sys_id>b09988f7ed7c10107f4436720f991a61</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <ui_id>79cb99b8-b1e3-4761-ae1b-5250fc1687da</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b09988f7ed7c10107f4436720f991a61"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b09988f7ed7c10107f4436720f991a61</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:15:45</sys_created_on>
+        <sys_id>bc9988f7ed7c10107f4436720f991a62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:15:45</sys_updated_on>
+        <value>x_cdltd_insta_fuel_insta_fuel</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b09988f7ed7c10107f4436720f991a61</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:15:45</sys_created_on>
+        <sys_id>f89988f7ed7c10107f4436720f991a62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:15:45</sys_updated_on>
+        <value>state=2</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b09988f7ed7c10107f4436720f991a61"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b09988f7ed7c10107f4436720f991a61</id>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:15:45</sys_created_on>
+        <sys_id>b49988f7ed7c10107f4436720f991a62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:15:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>b09988f7ed7c10107f4436720f991a61</id>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:15:45</sys_created_on>
+        <sys_id>f09988f7ed7c10107f4436720f991a62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:15:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>b09988f7ed7c10107f4436720f991a61</id>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:15:45</sys_created_on>
+        <sys_id>789988f7ed7c10107f4436720f991a62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:15:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=f7e412a7ed7810107f4436720f991aca^sys_idNOT IN463c447bed7c10107f4436720f991a7d,789988f7ed7c10107f4436720f991a63"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">8e3c447bed7c10107f4436720f991a7c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Fuel Flow">f7e412a7ed7810107f4436720f991aca</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:27:17</sys_created_on>
+        <sys_id>463c447bed7c10107f4436720f991a7d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <ui_id>c878f348-eb07-4198-bda4-f8efcb51021f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=463c447bed7c10107f4436720f991a7d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>463c447bed7c10107f4436720f991a7d</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:27:17</sys_created_on>
+        <sys_id>ce3c447bed7c10107f4436720f991a7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <value>NO Trucks Found</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=463c447bed7c10107f4436720f991a7d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>463c447bed7c10107f4436720f991a7d</id>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:27:17</sys_created_on>
+        <sys_id>4e3c447bed7c10107f4436720f991a7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{b329f5ca-4031-4e4f-850d-2e62bde5614e.Count}}=0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>463c447bed7c10107f4436720f991a7d</id>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:27:17</sys_created_on>
+        <sys_id>8a3c447bed7c10107f4436720f991a7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b09988f7ed7c10107f4436720f991a63</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Fuel Flow">f7e412a7ed7810107f4436720f991aca</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:15:45</sys_created_on>
+        <sys_id>789988f7ed7c10107f4436720f991a63</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <ui_id>02a4ce3a-721f-4942-9e70-69407c30b0dc</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=789988f7ed7c10107f4436720f991a63"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>789988f7ed7c10107f4436720f991a63</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:27:17</sys_created_on>
+        <sys_id>ca3c447bed7c10107f4436720f991a78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <value>If Trucks Found</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=789988f7ed7c10107f4436720f991a63"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>789988f7ed7c10107f4436720f991a63</id>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:15:45</sys_created_on>
+        <sys_id>709988f7ed7c10107f4436720f991a66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:15:45</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{b329f5ca-4031-4e4f-850d-2e62bde5614e.Count}}!=0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>789988f7ed7c10107f4436720f991a63</id>
+        <sys_created_by>vy.thai</sys_created_by>
+        <sys_created_on>2020-05-22 06:27:17</sys_created_on>
+        <sys_id>4a3c447bed7c10107f4436720f991a78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vy.thai</sys_updated_by>
+        <sys_updated_on>2020-05-22 06:27:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f7e412a7ed7810107f4436720f991aca^sys_idNOT IN1baed36fedf810107f4436720f991a1d,5baed36fedf810107f4436720f991a17,5faed36fedf810107f4436720f991a22"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f7e412a7ed7810107f4436720f991aca</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>1baed36fedf810107f4436720f991a1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insta Fuel" source="x_cdltd_insta_fuel">da934a2fed3810107f4436720f991a0a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:08:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f7e412a7ed7810107f4436720f991aca</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>5baed36fedf810107f4436720f991a17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insta Fuel" source="x_cdltd_insta_fuel">da934a2fed3810107f4436720f991a0a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:08:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f7e412a7ed7810107f4436720f991aca</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>yu.feng</sys_created_by>
+        <sys_created_on>2020-05-22 03:08:19</sys_created_on>
+        <sys_id>5faed36fedf810107f4436720f991a22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Insta Fuel" source="x_cdltd_insta_fuel">da934a2fed3810107f4436720f991a0a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insta Fuel">da934a2fed3810107f4436720f991a0a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>yu.feng</sys_updated_by>
+        <sys_updated_on>2020-05-22 03:08:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

@@ -15,3 +15,7 @@ Technology: ServiceNow App Development Platform, Javascript, HTML
 <h4>Server side:</h4>
 
 ![App2](https://i.ibb.co/Bzxcwf6/Screen-Shot-2020-05-20-at-11-46-10-AM.png)
+
+
+[Hackathon participants](https://www.linkedin.com/posts/kate-szumowski-051331b_servicenow-lifeatnow-activity-6671102808437223424-_fbU)
+
